@@ -53,8 +53,36 @@ p {
     width: 100%;
     margin: auto;
 }
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 22px;
+    font-size: 16px;
+    color: var(--White);
+    background: linear-gradient(-90deg, #2BB7DA 5%, #31D35C 65%);
+    border: none;
+    cursor: pointer;
+}
 
 /*! base end */
+
+/*! header start */
+.header-row {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav .menu-list {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+/*! header end */
 
 /*! responsive */
 
