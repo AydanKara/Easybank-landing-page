@@ -26,6 +26,7 @@
 
 body {
     overflow-x: hidden;
+    
 }
 
 ul,
@@ -67,10 +68,15 @@ p {
 /*! base end */
 
 /*! header start */
+header {
+    position: relative;
+    z-index: 1;
+}
 .header-row {
     height: 70px;
     display: flex;
     align-items: center;
+    background-color: var(--White);
 }
 .header-wrapper {
     display: flex;
@@ -83,7 +89,30 @@ p {
     align-items: center;
 }
 /*! header end */
+main {
 
+}
+.next-generation {
+    background-image: url(./images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 188% 77%;
+    background-color: var(--Light-Grayish-Blue);
+    height: 435px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.next-generation-title {
+    width: 300px;
+}
+.next-generation-image {
+    position: absolute;
+    right: -80px;
+}
+.next-generation-image img {
+    width: 475px;
+}
 /*! responsive */
 
 @media (max-width: 1200px) {
