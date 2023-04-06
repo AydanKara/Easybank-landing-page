@@ -63,6 +63,7 @@ p {
     background: linear-gradient(-90deg, #2BB7DA 5%, #31D35C 65%);
     border: none;
     cursor: pointer;
+    width: 170px;
 }
 
 /*! base end */
@@ -88,6 +89,10 @@ header {
     column-gap: 20px;
     align-items: center;
 }
+.menu-link {
+    font-size: 16px;
+    color: var(--Grayish-Blue);
+}
 /*! header end */
 main {
 
@@ -104,8 +109,21 @@ main {
     justify-content: space-between;
 }
 .next-generation-title {
-    width: 300px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
+.next-generation-title h1 {
+    font-size: 57px;
+    font-weight: 300;
+    width: 425px;
+}
+.next-generation-title p {
+    width: 466px;
+    color: var(--Grayish-Blue);
+}
+
 .next-generation-image {
     position: absolute;
     right: -80px;
