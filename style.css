@@ -47,10 +47,12 @@ h6,
 p {
     margin: 0;
 }
+.width-100 {
+    width: 100%;
+}
 
 .container {
     margin: 0 10%;
-    width: 100%;
 }
 .btn {
     display: inline-block;
@@ -150,6 +152,10 @@ main {
 }
 .easybank-extras .title {
     width: 500px;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .title h2 {
     font-size: 30px;
@@ -158,12 +164,22 @@ main {
 .title p {
     color: var(--Grayish-Blue);
     font-size: 14px;
-    line-height: 20px;
+    line-height: 22px;
 }
 .extras {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+.extras .extra {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.extras .extra img {
+    width: 50px;
+}
+.extras .extra p {
+    font-size: 16px;
 }
 /* section easybank-extras end */
 
