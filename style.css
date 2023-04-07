@@ -26,7 +26,6 @@
 
 body {
     overflow-x: hidden;
-    
 }
 
 ul,
@@ -50,9 +49,8 @@ p {
 }
 
 .container {
-    max-width: 1200px;
+    margin: 0 10%;
     width: 100%;
-    margin: auto;
 }
 .btn {
     display: inline-block;
@@ -94,19 +92,20 @@ header {
     color: var(--Grayish-Blue);
 }
 /*! header end */
-main {
 
+/*! main start */
+main {
+    
 }
+/* section next-generation start */
 .next-generation {
-    background-image: url(./images/bg-intro-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: 188% 77%;
-    background-color: var(--Light-Grayish-Blue);
     height: 435px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.next-generation-container {
+    
 }
 .next-generation-title {
     width: 50%;
@@ -126,39 +125,79 @@ main {
 
 .next-generation-image {
     position: absolute;
-    right: -80px;
+    top: 0;
+    right: -390px;
+    display: flex;
+    flex-direction: column;
 }
 .next-generation-image img {
-    width: 475px;
+    width: 485px;
 }
+.next-generation-image .bg-itro {
+    position: relative;
+    right: 113px;
+    top: -687px;
+    background-color: var(--Very-Light-Gray);
+    background-image: url(./images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 826px;
+    height: 648px;
+    z-index: -1;
+}
+/* section next-generation end */
+
+/* section easybank-extras start */
+.easybank-extras {
+    background-color: var(--Light-Grayish-Blue);
+    height: 435px;
+}
+.title h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+.title p {
+    color: var(--Grayish-Blue);
+}
+.extras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* section easybank-extras end */
+
+
+
+/*! main end */
+
 /*! responsive */
 
 @media (max-width: 1200px) {
     .container {
-        max-width: 992px;
+        
     }
 }
 
 @media (max-width: 992px) {
     .container {
-        max-width: 768px;
+        
     }
 }
 
 @media (max-width: 768px) {
     .container {
-        max-width: 576px;
+        
     }
 }
 
 @media (max-width: 576px) {
     .container {
-        max-width: 400px;
+        
     }
 }
 
 @media (max-width: 420px) {
     .container {
-        max-width: 350px;
+        
     }
 }
