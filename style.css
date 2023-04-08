@@ -274,7 +274,7 @@ header {
     color: var(--Grayish-Blue);
 }
 
-.latest-articles .box-content h4 {
+.latest-articles .box-content h3 {
     font-weight: 300;
     max-width: 200px;
 }
