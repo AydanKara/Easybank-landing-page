@@ -257,7 +257,9 @@ main {}
 }
 /* section latest-articles end */
 
-
+.footer-wrapper {
+    background-color: var(--Dark-Blue);
+}
 
 /*! main end */
 
