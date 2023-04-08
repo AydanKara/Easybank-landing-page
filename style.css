@@ -55,6 +55,9 @@ p {
 .width-100 {
     width: 100%;
 }
+.display-flex {
+    display: flex;
+}
 
 .container {
     margin: 0 10%;
@@ -221,7 +224,8 @@ main {}
     height: 535px;
 }
 .latest-articles .title {
-    padding: 60px 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 .latest-articles .title h2 {
     font-size: 30px;
@@ -256,12 +260,55 @@ main {}
     max-width: 300px;
 }
 /* section latest-articles end */
+/*! main end */
 
+/*! footer start */
 .footer-wrapper {
     background-color: var(--Dark-Blue);
+    display: flex;
+    padding: 40px 0;
+}
+.footer-wrapper .footer-content {
+    width: 100%;
+    display: flex;
 }
 
-/*! main end */
+.footer-wrapper .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social-media-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-wrapper .center {
+    margin-left: 150px;
+    display: flex;
+    gap: 100px;
+}
+.footer-wrapper .center .menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.footer-wrapper .center .menu-list a {
+    color: var(--White);
+    font-size: 15px;
+}
+.footer-wrapper .right {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 25px;
+}
+/*! footer end */
+
+
 
 /*! responsive */
 
