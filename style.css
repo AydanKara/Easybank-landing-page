@@ -91,7 +91,7 @@ header {
 }
 
 .header-row {
-    height: 70px;
+    height: 80px;
     display: flex;
     align-items: center;
     background-color: var(--White);
