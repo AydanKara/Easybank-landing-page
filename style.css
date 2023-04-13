@@ -141,7 +141,6 @@ header {
     margin-top: 120px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
 }
 
 .next-generation-title h1 {
@@ -152,6 +151,8 @@ header {
 
 .next-generation-title p {
     width: 466px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     color: var(--Grayish-Blue);
 }
 
