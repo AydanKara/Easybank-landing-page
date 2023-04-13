@@ -130,7 +130,7 @@ header {
 /*! main start */
 /* section next-generation start */
 .next-generation {
-    height: 655px;
+    height: 657px;
     background-color: var(--Very-Light-Gray);
     display: flex;
     align-items: center;
@@ -140,6 +140,7 @@ header {
 .next-generation-title {
     display: flex;
     flex-direction: column;
+    margin-top: -10px;
 }
 
 .next-generation-title h1 {
