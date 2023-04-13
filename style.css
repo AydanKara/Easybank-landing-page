@@ -130,7 +130,7 @@ header {
 /*! main start */
 /* section next-generation start */
 .next-generation {
-    height: 535px;
+    height: 650px;
     background-color: var(--Very-Light-Gray);
     display: flex;
     align-items: center;
