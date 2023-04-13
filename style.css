@@ -138,20 +138,21 @@ header {
 }
 
 .next-generation-title {
-    margin-top: 120px;
+    margin-top: 110px;
     display: flex;
     flex-direction: column;
 }
 
 .next-generation-title h1 {
-    font-size: 57px;
+    font-size: 56px;
     font-weight: 300;
     width: 425px;
+    color: var(--Dark-Blue);
 }
 
 .next-generation-title p {
     width: 466px;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 40px;
     color: var(--Grayish-Blue);
 }
