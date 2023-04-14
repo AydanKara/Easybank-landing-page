@@ -74,7 +74,7 @@ p {
     background: linear-gradient(-90deg, #2BB7DA 5%, #31D35C 65%);
     border: none;
     cursor: pointer;
-    width: 170px;
+    width: 175px;
     transition: 0.3s ease-in-out all;
 }
 
@@ -160,13 +160,13 @@ header {
 .next-generation-image {
     position: absolute;
     top: 0;
-    right: -526px;
+    right: -588px;
     display: flex;
     flex-direction: column;
 }
 
 .next-generation-image img {
-    width: 585px;
+    width: 737px;
     z-index: 2;
 }
 
