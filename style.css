@@ -172,14 +172,13 @@ header {
 
 .next-generation-image .bg-itro {
     position: relative;
-    right: 157px;
-    top: -846px;
+    right: 110px;
+    top: -882px;
     background-image: url(./images/bg-intro-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 1012px;
-    height: 801px;
-
+    width: 1200px;
+    height: 981px;
 }
 
 /* section next-generation end */
