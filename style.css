@@ -239,11 +239,11 @@ header {
 /* section latest-articles start */
 .latest-articles {
     background-color: var(--Very-Light-Gray);
-    height: 677px;
+    height: 657px;
 }
 
 .latest-articles .title {
-    padding-top: 50px;
+    padding-top: 90px;
     padding-bottom: 20px;
 }
 
