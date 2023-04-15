@@ -188,7 +188,7 @@ header {
 /* section easybank-extras start */
 .easybank-extras {
     background-color: var(--Light-Grayish-Blue);
-    height: 657px;
+    height: 677px;
 }
 
 .easybank-extras .title {
@@ -239,7 +239,7 @@ header {
 /* section latest-articles start */
 .latest-articles {
     background-color: var(--Very-Light-Gray);
-    height: 535px;
+    height: 677px;
 }
 
 .latest-articles .title {
