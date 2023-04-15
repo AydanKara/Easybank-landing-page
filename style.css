@@ -105,7 +105,7 @@ header {
 
 .header-nav .menu-list {
     display: flex;
-    column-gap: 20px;
+    column-gap: 30px;
     align-items: center;
 }
 
@@ -140,7 +140,7 @@ header {
 .next-generation-title {
     display: flex;
     flex-direction: column;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
 .next-generation-title h1 {
@@ -153,7 +153,7 @@ header {
 .next-generation-title p {
     width: 466px;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
     color: var(--Grayish-Blue);
 }
 
@@ -174,7 +174,7 @@ header {
 .next-generation-image .bg-itro {
     position: relative;
     right: 175px;
-    top: -1030px;
+    top: -1035px;
     background-image: url(./images/bg-intro-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
