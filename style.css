@@ -67,14 +67,14 @@ p {
 
 .btn {
     display: inline-block;
-    padding: 10px 25px;
+    padding: 12px 25px;
     border-radius: 22px;
     font-size: 16px;
     color: var(--White);
     background: linear-gradient(-90deg, #2BB7DA 5%, #31D35C 65%);
     border: none;
     cursor: pointer;
-    width: 175px;
+    width: 160px;
     transition: 0.3s ease-in-out all;
 }
 
