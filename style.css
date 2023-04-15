@@ -305,6 +305,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .footer-wrapper .right p {
