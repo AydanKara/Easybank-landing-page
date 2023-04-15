@@ -226,7 +226,7 @@ header {
 }
 
 .section-box .easybank-box img {
-    width: 50px;
+    width: 70px;
 }
 
 .section-box .easybank-box p {
@@ -305,7 +305,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 40px;
+    gap: 45px;
 }
 
 .footer-wrapper .right p {
