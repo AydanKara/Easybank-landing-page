@@ -243,8 +243,8 @@ header {
 }
 
 .latest-articles .title {
-    padding-top: 90px;
-    padding-bottom: 20px;
+    padding-top: 85px;
+    padding-bottom: 40px;
 }
 
 .latest-articles .title h2 {
@@ -293,7 +293,7 @@ header {
 .footer-wrapper {
     background-color: var(--Dark-Blue);
     display: flex;
-    padding: 40px 0;
+    padding: 47px 0;
 }
 
 .footer-wrapper .footer-content {
